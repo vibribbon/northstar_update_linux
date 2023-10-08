@@ -26,3 +26,6 @@ fi
 
 # Replace Titanfall2 executable - means ea launcher will run this one under wine.
 cp "${install_location}/NorthstarLauncher.exe" "${install_location}/Titanfall2.exe"
+
+# Replace config server script
+cp "${install_location}/autoexec_ns_server.cfg" "${install_location}/R2Northstar/mods/Northstar.CustomServers/mod/cfg/autoexec_ns_server.cfg"
